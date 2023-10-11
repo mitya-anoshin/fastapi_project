@@ -1,7 +1,11 @@
 fastapi
+fastapi-cache2[redis]
+redis
 uvicorn[standard]
 sqlalchemy
 psycopg2
 alembic
 pydantic[email]
 passlib
+celery
+flower
